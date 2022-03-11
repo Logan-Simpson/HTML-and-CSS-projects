@@ -1,0 +1,139 @@
+@media screen and (max-width: 991px ) {
+    .navbar-nav .nav-link {
+        padding-left: 20px;
+    }
+}
+
+body {
+    background-color: #F9FAFB;
+}
+
+ul {
+    list-style-type: none;
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    margin-top: 0px;
+    margin-left: 0px;
+    background-color: #FFFFFF;
+    padding-bottom: 19px;
+}
+
+li {
+    display: inline;
+}
+
+/*Had to use 'Inter' as it was the most similar Google font to HelveticaNeue */
+h2 {
+    position: relative;
+    font-family: 'Inter', sans-serif; 
+    padding-top: 67px;
+    font-size: 44px;
+    font-weight: 900;
+    color: #000000;
+}
+
+h4 {
+    font-family: 'Inter', sans-serif;
+    padding-bottom: 23px;
+    padding-top: 73px;
+}
+
+.text-label {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    color: #192024;
+    padding-left: 10px;
+    padding-right: 24px;
+    padding-bottom: 56px;
+}
+
+label input {
+    display: none;
+}
+
+
+.card {
+    height: 240px;
+    width: 300px;
+    box-shadow: 0 -1px 4px 0 rgba(25, 32, 36, 0.04), 0 3px 6px 0 rgba(25, 32, 36, 0.16);
+    border: solid 1px #363f45;
+    margin: 0 16px 16px;
+    border-radius: 8px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #192024;
+    margin: 0;
+    padding-left: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-title2 {
+    display: none;
+}
+
+h5:hover  .card-title2 {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 54px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: #192024;
+}
+
+h5:hover .card-title3 {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    padding-left: 54px;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    color: #5a6872;
+}
+
+.card-title3 {
+    display: none;
+}
+
+
+
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.container {
+    width: 0 auto;
+    margin: 0 auto;
+    margin-top: 56px;
+    padding-left: 94px;
+}
+
+img {
+    float: left;
+    padding-right: 18px;
+}
+
+.img1 {
+    position: relative;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    padding-left: 16px;
+}
